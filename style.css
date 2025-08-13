@@ -533,6 +533,62 @@ header {
 
 /* home end */
 
+/* about sect start */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap:70px;
+}
+
+.about-container .about-img{
+  flex: 1 1 250px;
+}
+
+.about-container .about-img img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+  
+  
+}
+
+.about-container .about-data{
+  flex: 1 1 350px;
+}
+
+.about-container .about-data .about-description{
+  color: var(--text-color);
+  text-align: justify; 
+  margin-bottom: 25px;
+}
+.about-container .about-data .about-info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.about-container .about-data .about-info .about-info-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.about-container .about-data .about-info .about-info-title .number{
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  text-align: center;
+}
+.about-container .about-data .about-info .about-info-title .about-info-name{
+  text-align: center;
+}
+
+
+
+/* about sect end */
+
+
 /* Responsive design */
 
 /* For large devices  */
